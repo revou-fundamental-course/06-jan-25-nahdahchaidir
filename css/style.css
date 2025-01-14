@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    padding: 12px;
+    font-family: "Roboto", sans-serif;
+  }
+
+
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-image: url(https://picsum.photos/200);
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+}
+
+.left-rounded {
+    border-radius: 5px 0 0 5px;
+}
+
+.right-rounded {
+    border-radius: 0 5px 5px 0;
+}
+
+nav>a {
+    border: 1px solid black;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.banner-image {
+    height: 450px;
+    background-image: url(https://picsum.photos/1000);
+    background-size: cover;
+    background-position: center;
+}
+
+.content {
+    height: 500px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-header {
+        flex-direction: column;
+    }
+
+    nav {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .logo-icon {
+        margin-bottom: 14px;
+    }
+}
+footer {
+    text-align: center;
+}
