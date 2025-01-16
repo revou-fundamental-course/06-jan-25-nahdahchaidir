@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nahdah Fauziah Chaidir</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body>
@@ -35,232 +36,231 @@
 
     <hr />
 
-    <main>
-        <!-- Home Section -->
-        <section id="home-page">
-            <header class="home-page">
-                <h1 id="welcome-message">Welcome!</h1>
-                <p>Here, you can check out my skills and what I'm passionate about.</p>
-            </header>
+    <!-- Home Section -->
+    <section id="home-page">
+        <header class="home-page">
+            <h1 id="welcome-message">Welcome!</h1>
+            <p>Here, you can check out my skills and what I'm passionate about.</p>
+        </header>
 
-            <div class="container">
-                <div class="slider-wrapper">
-                    <div class="slider" id="slider">
-                        <img class="slide-1" src="https://img.freepik.com/premium-photo/scenic-view-lake-landscape-against-mountains-jetty_628924-4176.jpg" alt="Slide 1" />
-                        <img class="slide-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01xQ7lUdGg84MQjD7go-BwmNoz4cOxCCWMAm24qpnUQhdYdkHLzmoMTiRrqHsSy3Boqg&usqp=CAU" alt="Slide 2" />
-                        <img class="slide-3" src="https://picsum.photos/1000" alt="Slide 3" />
+        <div class="container">
+            <div class="slider-wrapper">
+                <div class="slider" id="slider">
+                    <img class="slide-1" src="https://img.freepik.com/premium-photo/scenic-view-lake-landscape-against-mountains-jetty_628924-4176.jpg" alt="Slide 1" />
+                    <img class="slide-2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT01xQ7lUdGg84MQjD7go-BwmNoz4cOxCCWMAm24qpnUQhdYdkHLzmoMTiRrqHsSy3Boqg&usqp=CAU" alt="Slide 2" />
+                    <img class="slide-3" src="https://picsum.photos/1000" alt="Slide 3" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <hr />
+
+    <!-- Portfolio Section -->
+    <section id="portfolios">
+        <div class="portfolios main-container">
+            <h3 class="pre-title">My Works</h3>
+            <h1 class="section-title">Featured Portfolio</h1>
+
+            <div class="grid-3">
+                <!-- Portfolio 1 -->
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="./images/portfolios/agency website.avif" alt="Portfolio 1">
+
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Agency Website</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg 
+                                    xmlns="http://www.w3.org/2000/svg" 
+                                    width="24" 
+                                    height="24" 
+                                    viewBox="0 0 24 24"  
+                                >
+                                    <path 
+                                        d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11
+                                        5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                                    />
+                                </svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>React</div>
+                            <div>Tailwind</div>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
+                    
+                    </div>
+                </div>
+
+                <!-- Portfolio 2 -->
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="images/portfolios/indochino-inline.jpg" alt="Portfolio 2">
+
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Landing Page</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>Vue</div>
+                            <div>Contentful</div>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
+                    
+                    </div>
+                </div>
+
+                <!-- Portfolio 3 -->
+                <div class="portfolio">
+                    <div class="portfolio-cover">
+                        <img src="images/portfolios/html.design.jpg" alt="Portfolio 3">
+
+                    </div>
+
+                    <div class="portfolio-info">
+                        <div class="portfolio-title">
+                            <h4>Dashboard Admin</h4>
+                            <a href="/" class="portfolio-link">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
+                            </a>
+                        </div>
+
+                        <div class="portfolio-tags">
+                            <div>React</div>
+                            <div>Materialize</div>
+                        </div>
+
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
+                    
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <hr />
+    <hr />
 
-        <!-- Portfolio Section -->
-        <section id="portfolios">
-            <div class="portfolios main-container">
-                <h3 class="pre-title">My Works</h3>
-                <h1 class="section-title">Featured Portfolio</h1>
+    <!-- Skills & Education -->
+    <section id="skills">
+        <div class="skills main-container">
+            <h3 class="pre-title">Learning Path</h3>
+            <h1 class="section-title">Skills and Education</h1>
 
-                <div class="grid-3">
-                    <!-- Portfolio 1 -->
-                    <div class="portfolio">
-                        <div class="portfolio-cover">
-                            <img src="./images/portfolios/agency website.avif" alt="Portfolio 1">
-
+            <div class="skills-grid">
+                <div class="skills-left">
+                    <div class="education">
+                        <div class="line">
+                            <div></div>
                         </div>
 
-                        <div class="portfolio-info">
-                            <div class="portfolio-title">
-                                <h4>Agency Website</h4>
-                                <a href="/" class="portfolio-link">
-                                    <svg 
-                                        xmlns="http://www.w3.org/2000/svg" 
-                                        width="24" 
-                                        height="24" 
-                                        viewBox="0 0 24 24"  
-                                    >
-                                        <path 
-                                         d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11
-                                         5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
-                                        />
-                                    </svg>
-                                </a>
-                            </div>
-
-                            <div class="portfolio-tags">
-                                <div>React</div>
-                                <div>Tailwind</div>
-                            </div>
-
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
-                        
+                        <div class="education-info">
+                            <h4 class="education-title">Hasanuddin University</h4>
+                            <p>Undergraduate Degree - Informatics Engineering</p>
+                            <h4 class="education-years">2024 - now</h4>
                         </div>
                     </div>
+                </div>
 
-                    <!-- Portfolio 2 -->
-                    <div class="portfolio">
-                        <div class="portfolio-cover">
-                            <img src="images/portfolios/indochino-inline.jpg" alt="Portfolio 2">
+                <div class="skills-right">
+                    <p>
+                        For the past few months, I've been learning a lot about cybersecurity and front-end 
+                        development while also practicing with different programming languages.
+                        Here is a summary of my skills in these fields and the new things I've been learning.
+                    </p>
 
-                        </div>
-
-                        <div class="portfolio-info">
-                            <div class="portfolio-title">
-                                <h4>Landing Page</h4>
-                                <a href="/" class="portfolio-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                                </a>
-                            </div>
-
-                            <div class="portfolio-tags">
-                                <div>Vue</div>
-                                <div>Contentful</div>
-                            </div>
-
-                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
+                    <div class="skills-list">
+                        <ul>
+                            <li>C</li>
+                            <li>Python</li>
+                            <li>HTML</li>
+                            <LI>CSS</LI>
+                        </ul>
                         
-                        </div>
-                    </div>
-
-                    <!-- Portfolio 3 -->
-                    <div class="portfolio">
-                        <div class="portfolio-cover">
-                            <img src="images/portfolios/html.design.jpg" alt="Portfolio 3">
-
-                        </div>
-
-                        <div class="portfolio-info">
-                            <div class="portfolio-title">
-                                <h4>Dashboard Admin</h4>
-                                <a href="/" class="portfolio-link">
-                                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"/></svg>
-                                </a>
-                            </div>
-
-                            <div class="portfolio-tags">
-                                <div>React</div>
-                                <div>Materialize</div>
-                            </div>
-
-                         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quaerat esse suscipit temporibus perferendis consectetur culpa neque, sunt maiores ea accusamus natus beatae consequatur voluptatem doloribus velit asperiores. A, tempora ea.</p>
-                        
-                        </div>
+                        <ul>
+                            <li>Website Exploitation</li>
+                            <li>Forensics</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
-        <hr />
+    <hr />
 
-        <!-- Skills & Education -->
-        <section id="skills">
-            <div class="skills main-container">
-                <h3 class="pre-title">Learning Path</h3>
-                <h1 class="section-title">Skills and Education</h1>
-
-                <div class="skills-grid">
-                    <div class="skills-left">
-                        <div class="education">
-                            <div class="line">
-                                <div></div>
-                            </div>
-
-                            <div class="education-info">
-                                <h4 class="education-title">Hasanuddin University</h4>
-                                <p>Undergraduate Degree - Informatics Engineering</p>
-                                <h4 class="education-years">2024 - now</h4>
-                            </div>
-                        </div>
+    <!-- Contact -->
+    <section id="contact">
+        <div class="contact main-container">
+            <div class="contact-left">
+                <form class="contact-form" action="https://formspree.io/f/mgvvqlzn" method="POST">
+                    <div>
+                        <input type="text" placeholder="Name" name="name">
                     </div>
-
-                    <div class="skills-right">
-                        <p>
-                            For the past few months, I've been learning a lot about cybersecurity and front-end 
-                            development while also practicing with different programming languages.
-                            Here is a summary of my skills in these fields and the new things I've been learning.
-                        </p>
-
-                        <div class="skills-list">
-                            <ul>
-                                <li>C</li>
-                                <li>Python</li>
-                                <li>HTML</li>
-                                <LI>CSS</LI>
-                            </ul>
-                            
-                            <ul>
-                                <li>Website Exploitation</li>
-                                <li>Forensics</li>
-                            </ul>
-                        </div>
+                    <div>
+                        <input type="email" placeholder="Email" name="email">
                     </div>
-                </div>
+                    <div>
+                        <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
+                    </div>
+                    <div>
+                        <button class="btn-submit">Send Message</button>
+                    </div>
+                </form>
             </div>
-        </section>
-
-        <hr />
-
-        <!-- Contact -->
-        <section id="contact">
-            <div class="contact main-container">
-                <div class="contact-left">
-                    <form class="contact-form" action="https://formspree.io/f/mgvvqlzn" method="POST">
-                        <div>
-                            <input type="text" placeholder="Name" name="name">
-                        </div>
-                        <div>
-                            <input type="email" placeholder="Email" name="email">
-                        </div>
-                        <div>
-                            <textarea name="message" id="message" placeholder="Message" cols="30" rows="10"></textarea>
-                        </div>
-                        <div>
-                            <button class="btn-submit">Send Message</button>
-                        </div>
-                    </form>
-                </div>
-                <div class="contact-right">
-                <!-- Contact item 1 -->
-                    <div class="contact-item">
-                        <div class="contact-item-icon">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
-                        </div>
-                        <div class="contact-item-detail">
-                            <h4>Address</h4>
-                            <p>3424 Layman Avenue, Fayetteville, NC</p>
-                        </div>
-                    </div>
-                    <!-- contact item 2 -->
+            <div class="contact-right">
+            <!-- Contact item 1 -->
                 <div class="contact-item">
                     <div class="contact-item-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 1c-3.148 0-6 2.553-6 5.702 0 3.148 2.602 6.907 6 12.298 3.398-5.391 6-9.15 6-12.298 0-3.149-2.851-5.702-6-5.702zm0 8c-1.105 0-2-.895-2-2s.895-2 2-2 2 .895 2 2-.895 2-2 2zm8 6h-3.135c-.385.641-.798 1.309-1.232 2h3.131l.5 1h-4.264l-.344.544-.289.456h.558l.858 2h-7.488l.858-2h.479l-.289-.456-.343-.544h-2.042l-1.011-1h2.42c-.435-.691-.848-1.359-1.232-2h-3.135l-4 8h24l-4-8zm-12.794 6h-3.97l1.764-3.528 1.516 1.528h1.549l-.859 2zm8.808-2h3.75l1 2h-3.892l-.858-2z"/></svg>
                     </div>
                     <div class="contact-item-detail">
-                        <h4>Phone</h4>
-                        <p>(501) 111-1111</p>
+                        <h4>Address</h4>
+                        <p>3424 Layman Avenue, Fayetteville, NC</p>
                     </div>
                 </div>
-
-                <!-- contact item 3 -->
-                <div class="contact-item">
-                    <div class="contact-item-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
-                    </div>
-                    <div class="contact-item-detail">
-                        <h4>Email</h4>
-                        <p>nadasdata@gmail.com</p>
-                    </div>
+                <!-- contact item 2 -->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Phone</h4>
+                    <p>(501) 111-1111</p>
                 </div>
             </div>
-        </section>
-    </main>
+
+            <!-- contact item 3 -->
+            <div class="contact-item">
+                <div class="contact-item-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                </div>
+                <div class="contact-item-detail">
+                    <h4>Email</h4>
+                    <p>nadasdata@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <footer>
         <p>&copy; Created by Nahdah Fauziah Chaidir</p>
     </footer>
 
-    <script src="js/script.js" ></script>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

@@ -55,9 +55,23 @@
         margin: 0.6rem 0 2.5rem;
     }
 
+    .skills-grid {
+        gap: 1rem;
+    }
 
+    /* Footer */
+    footer {
+        padding: 2rem 0;
+    }
 }
 
 @media screen and (max-width: 640px) {
+    /* Titles */
+    .section-title {
+        font-size: 1.3rem;
+    }
 
+    .pre-title {
+        font-size: 0.7rem;
+    }
 }
